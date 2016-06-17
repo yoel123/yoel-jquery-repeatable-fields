@@ -1,0 +1,27 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="js/jqury.js"></script>
+<script language="javascript" type="text/javascript" src="js/y_reapetble.js"></script>
+ 
+<script>
+$( document ).ready(function() {
+    y_reapeat_field(".reapetble_do",".reapet_btn")
+});
+</script>
+
+</head>
+<body>
+
+<form action="do.php" method ="post">
+<div class="reapetble_parent">
+	<div  class="reapetble_do">
+		<br><input type="text" name="repeat_txt[]"/><br>
+	</div>
+	
+</div>
+<a href="#" class="reapet_btn">add field</a><br><br>
+ <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
