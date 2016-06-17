@@ -3,3 +3,5 @@ this is a repeatable form field example using jquery.
 <br>names of repeatable inputs shod end with square brackets "sonename[]", so all the fields will be sent as an array.<br>
 
 see demo(without php):
+
+https://cdn.rawgit.com/yoel123/yoel-jquery-repeatable-fields/master/index.html#
